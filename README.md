@@ -9,6 +9,7 @@ A lightweight and efficient C library for parsing NMEA sentences from GNSS recei
 - Lightweight and easy to integrate.
 
 ## Directory Structure
+```
 nmea-gnss-parser/
 ├── src/
 │   ├── nmea_parser.c       # Core source file for parsing NMEA sentences
@@ -25,3 +26,4 @@ nmea-gnss-parser/
 |
 ├── LICENSE                 # License file (MIT License)
 └── README.md               # Main project description
+```
