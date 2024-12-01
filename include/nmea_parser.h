@@ -9,6 +9,8 @@ typedef struct {
     char    latitude_dir;   // N or S
     double  longitude;      // Degrees
     char    longitude_dir;  // E or W
+    int     quality_ind;    // GPS Quality Indicator
+    int     num_sat;         // Number of satellites in view
 } NMEAData;
 
 // Function to parse an NMEA sentence

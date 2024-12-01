@@ -31,6 +31,12 @@ bool parse_nmea_sentence(const char *sentence, NMEAData *data) {
             case 5: // Longitude direction
                 data->longitude_dir = token[0];
                 break;
+            case 6: // GPS Quality Indicator
+                data->quality_ind = atoi(token);
+            break;
+            case 7: // Number of satellites in view
+                data->num_sat = atoi(token);
+            break;
         }
         token = strtok(NULL, ",");
         field++;

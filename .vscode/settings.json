@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.dart": "dart",
+        "stdbool.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c"
+    }
+}
